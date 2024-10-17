@@ -1,32 +1,31 @@
 [
-    {
-      "condition": "minecraft:any_of",
-      "terms": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"wawo.lodestone.hub\"]}"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"weather_device\"]}"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"outer_wilds_portal\"]}"
-          }
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"eden.lodestone.hub\"]}"
         }
-      ]
-    }
-  ]
-  
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"eden.weather_device\"]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"eden.outer_wilds_portal\"]}"
+        }
+      }
+    ]
+  }
+]
