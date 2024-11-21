@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
       "location": {
-        "dimension": "eden:astral_plane"
+        "biomes": "astral_plane:astral_desert"
       }
     }
   }

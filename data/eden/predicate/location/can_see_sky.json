@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
       "location": {
-        "dimension": "eden:astral_plane"
+        "can_see_sky": true
       }
     }
   }
